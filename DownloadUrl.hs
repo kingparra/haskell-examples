@@ -1,6 +1,7 @@
 #!/usr/bin/env stack
 -- stack --resolver lts-20.18 script --package http-conduit --package bytestring
 {-# LANGUAGE OverloadedStrings #-}
+-- https://github.com/snoyberg/http-client/blob/master/TUTORIAL.md
 
 import Network.HTTP.Simple
 import qualified Data.ByteString.Char8 as B8
