@@ -28,6 +28,14 @@ parseOptions = Options
      <> help "Number of lines to print"
      <> metavar "linesOpt" )
 
+-- Example use
+-- $ ./ArgParsing.hs -n 4 -l 5 -c '&'
+-- &&&&
+-- &&&&
+-- &&&&
+-- &&&&
+-- &&&&
+
 main :: IO ()
 main = do
 
